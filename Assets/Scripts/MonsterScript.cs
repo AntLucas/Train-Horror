@@ -53,4 +53,13 @@ public class MonsterScript : MonoBehaviour
             speed *= -1;
         }
     }
+
+    
+    void OnCollisionEnter2D(Collision2D other)
+    {
+        if(other.gameObject.CompareTag("Player"))
+        {
+            other.gameObject.GetComponent<PlayerLife>().perdeVida();
+        }
+    }
 }
