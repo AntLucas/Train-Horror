@@ -1,0 +1,891 @@
+fileFormatVersion: 2
+guid: 686e4228b743ad34fb4ccbae14543bc4
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 5427788363097615703
+    second: AnimacoesPersonagem_0
+  - first:
+      213: -8278609102238983110
+    second: AnimacoesPersonagem_1
+  - first:
+      213: -8511808810066323361
+    second: PersonagemParado4
+  - first:
+      213: -6868517011758711132
+    second: PersonagemParado5
+  - first:
+      213: -3493695221867285146
+    second: AnimacoesPersonagem_0
+  - first:
+      213: -4510971165681868763
+    second: AnimacoesPersonagem_5
+  - first:
+      213: -5878738332963857662
+    second: PersonagemParado1
+  - first:
+      213: -3493540015124468599
+    second: PersonagemParado2
+  - first:
+      213: -4867949249545879529
+    second: PersonagemParado3
+  - first:
+      213: 8790748968620411729
+    second: AnimacoesPersonagem_9
+  - first:
+      213: 244434231513225980
+    second: AnimacoesPersonagem_10
+  - first:
+      213: -6858329505513787292
+    second: AnimacoesPersonagem_11
+  - first:
+      213: -5793234753657134384
+    second: AnimacoesPersonagem_12
+  - first:
+      213: 6127571301683916724
+    second: AnimacoesPersonagem_13
+  - first:
+      213: -2945904171713801294
+    second: PersonagemParado10
+  - first:
+      213: 3038141214907154436
+    second: PersonagemParado11
+  - first:
+      213: 4664131788049764404
+    second: AnimacoesPersonagem_16
+  - first:
+      213: -4293952310516570092
+    second: PersonagemParado9
+  - first:
+      213: 5811313546940948106
+    second: AnimacoesPersonagem_18
+  - first:
+      213: -3377743647355915024
+    second: AnimacoesPersonagem_19
+  - first:
+      213: 8998408704104659739
+    second: PersonagemParado6
+  - first:
+      213: -852974178216943394
+    second: PersonagemParado7
+  - first:
+      213: 8149794801879425432
+    second: PersonagemParado8
+  - first:
+      213: -6281570549914463880
+    second: AnimacoesPersonagem_23
+  - first:
+      213: 2881052110240008444
+    second: AnimacoesPersonagem_24
+  - first:
+      213: 5773318241143544487
+    second: AnimacoesPersonagem_25
+  - first:
+      213: 4341875747972080543
+    second: AnimacoesPersonagem_26
+  - first:
+      213: 2472892484878919853
+    second: AnimacoesPersonagem_27
+  - first:
+      213: 6456636567929138133
+    second: AnimacoesPersonagem_28
+  - first:
+      213: -5785077526756859003
+    second: PersonagemParado12
+  - first:
+      213: -6543367811072274644
+    second: PersonagemParado13
+  - first:
+      213: -4767439278431442160
+    second: PersonagemParado14
+  - first:
+      213: -6032588712387389789
+    second: PersonagemParado15
+  - first:
+      213: 4497458925554607689
+    second: AnimacoesPersonagem_33
+  - first:
+      213: -6095401025511024481
+    second: PersonagemParado16
+  - first:
+      213: 7006766776733390026
+    second: PersonagemParado17
+  - first:
+      213: -4257716273600786821
+    second: AnimacoesPersonagem_36
+  - first:
+      213: -7083399708503551720
+    second: AnimacoesPersonagem_37
+  - first:
+      213: 77284301954921461
+    second: AnimacoesPersonagem_38
+  - first:
+      213: -5118597694755999184
+    second: PersonagemParado18
+  - first:
+      213: 2862195636267825787
+    second: PersonagemParado19
+  - first:
+      213: -7650840442831536043
+    second: PersonagemAndando1
+  - first:
+      213: -6674184312107465723
+    second: PersonagemAndando2
+  - first:
+      213: 7055633905298274343
+    second: PersonagemAndando3
+  - first:
+      213: 4842704750931336623
+    second: AnimacoesPersonagem_44
+  - first:
+      213: 5464548855047448415
+    second: AnimacoesPersonagem_45
+  - first:
+      213: -5377534459417382387
+    second: AnimacoesPersonagem_46
+  - first:
+      213: 8039464076048556590
+    second: AnimacoesPersonagem_47
+  - first:
+      213: 1700856983645902504
+    second: AnimacoesPersonagem_48
+  - first:
+      213: -3198389200864952917
+    second: AnimacoesPersonagem_49
+  - first:
+      213: 4731248758236039694
+    second: AnimacoesPersonagem_50
+  - first:
+      213: -8738697665205193753
+    second: AnimacoesPersonagem_51
+  - first:
+      213: -1893936395134085727
+    second: AnimacoesPersonagem_52
+  - first:
+      213: -4532129133304571616
+    second: AnimacoesPersonagem_53
+  - first:
+      213: 4477600726606177192
+    second: AnimacoesPersonagem_54
+  - first:
+      213: 6153889194432555369
+    second: AnimacoesPersonagem_55
+  - first:
+      213: -3336617697124799006
+    second: AnimacoesPersonagem_56
+  - first:
+      213: -2883459057672198252
+    second: AnimacoesPersonagem_57
+  - first:
+      213: 3183992069452258590
+    second: PersonagemAndando5
+  - first:
+      213: -8900371602725990794
+    second: AnimacoesPersonagem_59
+  - first:
+      213: 6521441885814324035
+    second: PersonagemAndando6
+  - first:
+      213: 2644293062571932267
+    second: PersonagemAndando7
+  - first:
+      213: 1714886869063559038
+    second: PersonagemAndando8
+  - first:
+      213: -6352071508779461335
+    second: PersonagemAndando4
+  - first:
+      213: 6551065922656086079
+    second: AnimacoesPersonagem_64
+  externalObjects: {}
+  serializedVersion: 11
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 2
+    compressionQuality: 100
+    crunchedCompression: 1
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 2
+    compressionQuality: 100
+    crunchedCompression: 1
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: PersonagemParado4
+      rect:
+        serializedVersion: 2
+        x: 429
+        y: 507
+        width: 27
+        height: 74
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f58d4f71cfaffd980800000000000000
+      internalID: -8511808810066323361
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PersonagemParado5
+      rect:
+        serializedVersion: 2
+        x: 514
+        y: 506
+        width: 29
+        height: 75
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4aef4643b202ea0a0800000000000000
+      internalID: -6868517011758711132
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AnimacoesPersonagem_0
+      rect:
+        serializedVersion: 2
+        x: 60
+        y: 500
+        width: 26
+        height: 75
+      alignment: 9
+      pivot: {x: 0.48398983, y: 0.5026229}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 665fe13c4b6e38fc0800000000000000
+      internalID: -3493695221867285146
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PersonagemParado1
+      rect:
+        serializedVersion: 2
+        x: 138
+        y: 495
+        width: 27
+        height: 75
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 20b973012a68a6ea0800000000000000
+      internalID: -5878738332963857662
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PersonagemParado2
+      rect:
+        serializedVersion: 2
+        x: 222
+        y: 499
+        width: 28
+        height: 75
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 98ca4e5add3748fc0800000000000000
+      internalID: -3493540015124468599
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PersonagemParado3
+      rect:
+        serializedVersion: 2
+        x: 330
+        y: 496
+        width: 27
+        height: 75
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7104034f2f1917cb0800000000000000
+      internalID: -4867949249545879529
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PersonagemParado10
+      rect:
+        serializedVersion: 2
+        x: 423
+        y: 392
+        width: 30
+        height: 74
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2b358ae83cb0e17d0800000000000000
+      internalID: -2945904171713801294
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PersonagemParado11
+      rect:
+        serializedVersion: 2
+        x: 524
+        y: 392
+        width: 30
+        height: 75
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 400c3049655a92a20800000000000000
+      internalID: 3038141214907154436
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PersonagemParado9
+      rect:
+        serializedVersion: 2
+        x: 325
+        y: 386
+        width: 31
+        height: 76
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4182139bf11d864c0800000000000000
+      internalID: -4293952310516570092
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PersonagemParado6
+      rect:
+        serializedVersion: 2
+        x: 53
+        y: 387
+        width: 26
+        height: 75
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b1bf0ff6a05c0ec70800000000000000
+      internalID: 8998408704104659739
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PersonagemParado7
+      rect:
+        serializedVersion: 2
+        x: 144
+        y: 387
+        width: 26
+        height: 74
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ed06cc01180a924f0800000000000000
+      internalID: -852974178216943394
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PersonagemParado8
+      rect:
+        serializedVersion: 2
+        x: 244
+        y: 390
+        width: 26
+        height: 75
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 891295e5133e91170800000000000000
+      internalID: 8149794801879425432
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PersonagemParado12
+      rect:
+        serializedVersion: 2
+        x: 58
+        y: 281
+        width: 32
+        height: 75
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 583ef8bd3a647bfa0800000000000000
+      internalID: -5785077526756859003
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PersonagemParado13
+      rect:
+        serializedVersion: 2
+        x: 141
+        y: 281
+        width: 31
+        height: 74
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c2fcf42e4a94135a0800000000000000
+      internalID: -6543367811072274644
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PersonagemParado14
+      rect:
+        serializedVersion: 2
+        x: 221
+        y: 284
+        width: 30
+        height: 75
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 01b69d83c37a6ddb0800000000000000
+      internalID: -4767439278431442160
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PersonagemParado15
+      rect:
+        serializedVersion: 2
+        x: 312
+        y: 284
+        width: 30
+        height: 74
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3a65e123780f74ca0800000000000000
+      internalID: -6032588712387389789
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PersonagemParado16
+      rect:
+        serializedVersion: 2
+        x: 425
+        y: 285
+        width: 26
+        height: 75
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f981dd6ef09c86ba0800000000000000
+      internalID: -6095401025511024481
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PersonagemParado17
+      rect:
+        serializedVersion: 2
+        x: 525
+        y: 279
+        width: 25
+        height: 75
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ac4d33f82490d3160800000000000000
+      internalID: 7006766776733390026
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PersonagemParado18
+      rect:
+        serializedVersion: 2
+        x: 53
+        y: 170
+        width: 27
+        height: 75
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0327fef148617f8b0800000000000000
+      internalID: -5118597694755999184
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PersonagemParado19
+      rect:
+        serializedVersion: 2
+        x: 161
+        y: 172
+        width: 25
+        height: 74
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b7aba6144cf88b720800000000000000
+      internalID: 2862195636267825787
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PersonagemAndando1
+      rect:
+        serializedVersion: 2
+        x: 262
+        y: 181
+        width: 26
+        height: 75
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 55085d33721c2d590800000000000000
+      internalID: -7650840442831536043
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PersonagemAndando2
+      rect:
+        serializedVersion: 2
+        x: 359
+        y: 179
+        width: 31
+        height: 73
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 504895fbab88063a0800000000000000
+      internalID: -6674184312107465723
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PersonagemAndando3
+      rect:
+        serializedVersion: 2
+        x: 475
+        y: 179
+        width: 36
+        height: 72
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 728718e87a5aae160800000000000000
+      internalID: 7055633905298274343
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PersonagemAndando5
+      rect:
+        serializedVersion: 2
+        x: 190
+        y: 50
+        width: 30
+        height: 75
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e1ddc5beaefcf2c20800000000000000
+      internalID: 3183992069452258590
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PersonagemAndando6
+      rect:
+        serializedVersion: 2
+        x: 282
+        y: 53
+        width: 30
+        height: 73
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 34bf053d7d0d08a50800000000000000
+      internalID: 6521441885814324035
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PersonagemAndando7
+      rect:
+        serializedVersion: 2
+        x: 398
+        y: 54
+        width: 33
+        height: 71
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b6a31a4c78a62b420800000000000000
+      internalID: 2644293062571932267
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PersonagemAndando8
+      rect:
+        serializedVersion: 2
+        x: 500
+        y: 53
+        width: 27
+        height: 73
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e77e38485808cc710800000000000000
+      internalID: 1714886869063559038
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PersonagemAndando4
+      rect:
+        serializedVersion: 2
+        x: 90
+        y: 51
+        width: 33
+        height: 73
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 92512531e98e8d7a0800000000000000
+      internalID: -6352071508779461335
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
