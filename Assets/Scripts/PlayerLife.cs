@@ -6,7 +6,6 @@ using UnityEngine.UI;
 public class PlayerLife : MonoBehaviour
 {
     bool vivo = true;
-    public static Text GameOver;
     // Start is called before the first frame update
     void Start()
     {
@@ -15,13 +14,7 @@ public class PlayerLife : MonoBehaviour
 
     // Update is called once per frame
     void Update()
-    {
-        if(!vivo)
-        {
-            GameOver.text = "Game Over";
-            GameOver.gameObject.SetActive(true);
-        }
-           
+    {    
     }
 
     public void perdeVida() 

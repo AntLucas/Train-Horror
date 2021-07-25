@@ -96,16 +96,14 @@ public class MonsterScript : MonoBehaviour
     {
         if(other.gameObject.CompareTag("Player"))
         {   
-            if ((jogador.transform.position.x >= -1 && jogador.transform.position.x <= 1) || (jogador.transform.position.x >= -4 && jogador.transform.position.x <= -2)) {
-               
-                
-                
-                
+            if ((jogador.transform.position.x >= -1 && jogador.transform.position.x <= 1) || (jogador.transform.position.x >= -4 && jogador.transform.position.x <= -2)) {    
             } else {
                 
                 other.gameObject.GetComponent<PlayerLife>().perdeVida();
             }
             
+        } else if (other.gameObject.CompareTag("Monster")){
+            speed *= -1;
         }
     }
 
