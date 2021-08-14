@@ -1,10 +1,12 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.UI;
 
-public class NewBehaviourScript : MonoBehaviour
+public class MalaScript : MonoBehaviour
 {
-    BoxCollider2D col;   
+    BoxCollider2D col; 
+    Text msgMala;  
     void Start()
     {
         col = gameObject.GetComponent<BoxCollider2D>();
@@ -22,7 +24,8 @@ public class NewBehaviourScript : MonoBehaviour
         {
             GameManager.gm.SetDica(1);
             col.enabled = false;
-            Destroy(gameObject, 0.667f);
+            Destroy(gameObject, 0.2f);
+            GameObject.Find("msgMala").GetComponent<Text>().enabled = true;  
         }    
     }
 }

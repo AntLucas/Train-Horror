@@ -1,14 +1,20 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.UI;
 
 public class GameManager : MonoBehaviour
 {
     public static GameManager gm;
+
     public int vida = 1;
     // Start is called before the first frame update
-    private int mala = 0;
+    private int malas = 0;
 
+    private void Start()
+    {
+        GameObject.Find("msgMala").GetComponent<Text>().enabled = false;
+    }
     private void Awake()
     {
         if (gm == null)
@@ -33,12 +39,13 @@ public class GameManager : MonoBehaviour
         vida += vidas;
     }
 
-    public void SetDica(int malas)
+    public void SetDica(int mala)
     {
-        mala += malas;
-        if(mala >= 3)
+        malas += mala;
+        if(malas >= 50)
         {
-            mala= 0;
+            malas = 0;
+
         }
         AtualizaHud();
     }
@@ -50,6 +57,7 @@ public class GameManager : MonoBehaviour
 
     public void AtualizaHud()
     {
-        //GameObject.Find("Dica1Text").GetComponent<Text>().text = mala.ToString();
+        Debug.Log(malas.ToString());
+        GameObject.Find("Dica1Text").GetComponent<Text>().text = malas.ToString();
     }
 }
