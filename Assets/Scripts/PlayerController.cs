@@ -13,6 +13,7 @@ public class PlayerController : MonoBehaviour
 
     private bool noChao = false;
     private Transform groundCheck;
+    Vector3 novaPosicao;
     
 
     // Start is called before the first frame update
@@ -28,6 +29,16 @@ public class PlayerController : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
+
+
+        if (transform.position.y < -2f) {
+
+            novaPosicao.y = 0.7193992f;
+            novaPosicao.x = transform.position.x;
+            transform.position = novaPosicao;
+
+        }
+
         noChao = Physics2D.Linecast(transform.position, groundCheck.position, 1 << LayerMask.NameToLayer("Ground"));
 
 
