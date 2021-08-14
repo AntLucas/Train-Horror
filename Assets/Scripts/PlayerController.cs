@@ -4,6 +4,8 @@ using UnityEngine;
 
 public class PlayerController : MonoBehaviour
 {
+    List<int> esconderijos = new List<int>();
+    List<int> escadas = new List<int>();
     public float speed;
 
     private Rigidbody2D rb;
@@ -14,6 +16,8 @@ public class PlayerController : MonoBehaviour
     private bool noChao = false;
     private Transform groundCheck;
     Vector3 novaPosicao;
+    public bool embaixo;
+    public bool entreVagao; 
     
 
     // Start is called before the first frame update
@@ -22,14 +26,22 @@ public class PlayerController : MonoBehaviour
         rb = gameObject.GetComponent<Rigidbody2D>();
         anim = gameObject.GetComponent<Animator>();
         groundCheck = gameObject.transform.Find("GroundCheck");
-        
-           
+        esconderijos.Add(0);
+        esconderijos.Add(-3);
+        escadas.Add(10);
+        embaixo = true;    
+        entreVagao = false;
     }
 
     // Update is called once per frame
     void Update()
     {
 
+        if (transform.position.y > 5) {
+            embaixo = false;
+        } else {
+            embaixo = true;
+        }
 
         if (transform.position.y < -2f) {
 
@@ -41,6 +53,11 @@ public class PlayerController : MonoBehaviour
 
         noChao = Physics2D.Linecast(transform.position, groundCheck.position, 1 << LayerMask.NameToLayer("Ground"));
 
+        if (noChao) {
+            entreVagao = false;
+        } else {
+            entreVagao = true;
+        }
 
     //     if (Input.GetKeyDown(KeyCode.X)) {
     //     Vector3 theScale = transform.localScale;
@@ -64,6 +81,28 @@ public class PlayerController : MonoBehaviour
 
     void FixedUpdate()
     {
+
+        if (Input.GetKey("up") || Input.GetKeyUp(KeyCode.W)) {
+
+            foreach (int subir in escadas) {
+                if (transform.position.x >= subir - 2 && (transform.position.x <= subir + 2)) {
+                    Debug.Log("OLA");
+
+                    novaPosicao.y = 6f;
+                    novaPosicao.x = transform.position.x + 2f;
+                    transform.position = novaPosicao;
+                }
+            }
+        
+            
+            
+    //     Vector3 theScale = transform.localScale;
+    //     float a = 4.5f;
+    //     theScale.x += a;
+    //     theScale.y += a;
+    //     transform.localScale = theScale;
+        }
+        
        
         float h = Input.GetAxisRaw("Horizontal");
         anim.SetFloat("Velocidade", Mathf.Abs(h));
@@ -75,8 +114,20 @@ public class PlayerController : MonoBehaviour
         } else if (h < 0 && facingRight) {
             Flip();
         }
+        bool escondido = false;
 
-        if ((transform.position.x > -1 && transform.position.x < 1) || transform.position.x > -4 && transform.position.x < -2) {
+        foreach (int malas in esconderijos)
+        {
+
+            if (transform.position.x > (malas -1) && transform.position.x < (malas + 1) && embaixo) {
+
+                escondido = true;
+
+            }
+
+        }
+
+        if (escondido) {
             Esconder();
         } else {
             Aparecer();
