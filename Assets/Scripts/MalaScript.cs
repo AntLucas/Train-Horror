@@ -25,7 +25,6 @@ public class MalaScript : MonoBehaviour
             GameManager.gm.SetDica(1);
             col.enabled = false;
             Destroy(gameObject, 0.2f);
-            GameObject.Find("msgMala").GetComponent<Text>().enabled = true;  
         }    
     }
 }

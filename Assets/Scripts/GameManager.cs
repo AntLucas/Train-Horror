@@ -11,10 +11,7 @@ public class GameManager : MonoBehaviour
     // Start is called before the first frame update
     private int malas = 0;
 
-    private void Start()
-    {
-        GameObject.Find("msgMala").GetComponent<Text>().enabled = false;
-    }
+    
     private void Awake()
     {
         if (gm == null)
