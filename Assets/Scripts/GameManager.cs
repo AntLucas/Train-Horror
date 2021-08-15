@@ -11,7 +11,7 @@ public class GameManager : MonoBehaviour
     // Start is called before the first frame update
     private int malas = 0;
 
-    
+
     private void Awake()
     {
         if (gm == null)
