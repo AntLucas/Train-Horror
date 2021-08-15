@@ -31,8 +31,17 @@ public class MonsterScript : MonoBehaviour
      rb = gameObject.GetComponent<Rigidbody2D>();
      anim = gameObject.GetComponent<Animator>();
      groundCheck = transform.Find("MonsterGroundCheck");   
-     esconderijos.Add(0);
-     esconderijos.Add(-3);
+
+    esconderijos.Add(-60);
+    esconderijos.Add(-40);
+    esconderijos.Add(-15);
+    esconderijos.Add(-3);
+    esconderijos.Add(0);
+    esconderijos.Add(13);
+    esconderijos.Add(55);
+    esconderijos.Add(100);
+    esconderijos.Add(130);
+
     }
 
 
@@ -71,20 +80,26 @@ public class MonsterScript : MonoBehaviour
                         speed = -1;
                     }
                         
-                } else {
+                } else if (noChao) {
+
+                    if (transform.position.x - 30 < jogador.transform.position.x && transform.position.x + 30 > jogador.transform.position.x) {
                             
-                    if (jogador.transform.position.x < transform.position.x && speed > 0)  {
-                        speed = -2;
-                    } else if (jogador.transform.position.x > transform.position.x && speed < 0) {
-                        speed = 2;
-                    } else if (jogador.transform.position.x < transform.position.x && speed < 0) {
-                        speed = -2;
-                    } else if (jogador.transform.position.x > transform.position.x && speed > 0) {
-                        speed = 2;
+                        if (jogador.transform.position.x < transform.position.x && speed > 0)  {
+                            speed = -2.5f;
+                        } else if (jogador.transform.position.x > transform.position.x && speed < 0) {
+                            speed = 2.5f;
+                        } else if (jogador.transform.position.x < transform.position.x && speed < 0) {
+                            speed = -2.5f;
+                        } else if (jogador.transform.position.x > transform.position.x && speed > 0) {
+                            speed = 2.5f;
+                        }
+                            
                     }
-                        rb.velocity = new Vector2(speed, rb.velocity.y);
+
+                    rb.velocity = new Vector2(speed, rb.velocity.y);
+
                 }
-                    
+
         }
             
         else if (!playerVivo) {
@@ -133,17 +148,30 @@ public class MonsterScript : MonoBehaviour
     {
         if(other.gameObject.CompareTag("Player"))
         {   
-            if ((jogador.transform.position.x >= -1 && jogador.transform.position.x <= 1) || (jogador.transform.position.x >= -4 && jogador.transform.position.x <= -2)) {    
-            } else {
+
+            bool playerEncontrado = true;
+
+            foreach (int malas in esconderijos)
+            {
+
+                    if (jogador.transform.position.x > (malas -1) && jogador.transform.position.x < (malas + 1)) {
+
+                        playerEncontrado = false;
+
+                    }
+
+            } 
+            if (playerEncontrado) {
+                 
+                    other.gameObject.GetComponent<PlayerLife>().perdeVida();
+                    novaPosicao = jogador.transform.position;
+                    playerVivo = false;
                 
-                other.gameObject.GetComponent<PlayerLife>().perdeVida();
-                novaPosicao = jogador.transform.position;
-                playerVivo = false;
-            }
-            
+            } 
         } else if (other.gameObject.CompareTag("Monster")){
-            speed *= -1;
+                speed *= -1;
         }
+            
     }
 
 }

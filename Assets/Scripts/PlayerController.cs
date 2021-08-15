@@ -26,9 +26,22 @@ public class PlayerController : MonoBehaviour
         rb = gameObject.GetComponent<Rigidbody2D>();
         anim = gameObject.GetComponent<Animator>();
         groundCheck = gameObject.transform.Find("GroundCheck");
-        esconderijos.Add(0);
+
+        esconderijos.Add(-60);
+        esconderijos.Add(-40);
+        esconderijos.Add(-15);
         esconderijos.Add(-3);
-        escadas.Add(10);
+        esconderijos.Add(0);
+        esconderijos.Add(13);
+        esconderijos.Add(55);
+        esconderijos.Add(100);
+        esconderijos.Add(130);
+        
+        escadas.Add(-24);
+        escadas.Add(32);
+        escadas.Add(89);
+        escadas.Add(146);
+
         embaixo = true;    
         entreVagao = false;
     }
@@ -85,11 +98,11 @@ public class PlayerController : MonoBehaviour
         if (Input.GetKey("up") || Input.GetKeyUp(KeyCode.W)) {
 
             foreach (int subir in escadas) {
-                if (transform.position.x >= subir - 2 && (transform.position.x <= subir + 2)) {
+                if (transform.position.x >= subir - 2 && (transform.position.x <= subir + 1)) {
                     Debug.Log("OLA");
 
-                    novaPosicao.y = 6f;
-                    novaPosicao.x = transform.position.x + 2f;
+                    novaPosicao.y = 6.5f;
+                    novaPosicao.x = transform.position.x + 4f;
                     transform.position = novaPosicao;
                 }
             }
@@ -171,5 +184,21 @@ public class PlayerController : MonoBehaviour
         }
         theScale.y = 4.5f;
         transform.localScale = theScale;
+    }
+
+    void OnCollisionEnter2D(Collision2D other)
+    {
+        if(other.gameObject.CompareTag("Bloqueio"))
+        {   
+
+            if (GameManager.gm.getMalas() > 14) {
+
+                Destroy(other.gameObject);
+               
+            } else {
+                
+            }
+
+        } 
     }
 }

@@ -8,7 +8,7 @@ public class Menu : MonoBehaviour
     {
         if (Input.GetKey(KeyCode.Return))
         {
-            SceneManager.LoadScene("Capitulo1");
+            SceneManager.LoadScene("SampleScene");
         }
     }
 }

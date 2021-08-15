@@ -9,8 +9,7 @@ public class GameManager : MonoBehaviour
 
     public int vida = 1;
     // Start is called before the first frame update
-    private int malas = 0;
-
+    public int malas = 0;
 
     private void Awake()
     {
@@ -56,5 +55,10 @@ public class GameManager : MonoBehaviour
     {
         Debug.Log(malas.ToString());
         GameObject.Find("Dica1Text").GetComponent<Text>().text = malas.ToString();
+    }
+
+    public int getMalas()
+    {
+        return malas;
     }
 }
